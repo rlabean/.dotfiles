@@ -48,19 +48,7 @@ brew install antibody
 brew install stow
 brew install yarn
 brew install bpytop
-brew install libreoffice
-brew install gimp
-brew install inkscape
-brew install chrome-browser
-
 brew install xclip
-
-
-# ---
-# Only For MacOS
-# ---
-
-# brew install --cask kitty
 
 # ---
 # Add ZSH to allowed login shells
@@ -71,13 +59,8 @@ command -v zsh | sudo tee -a /etc/shells
 # ---
 # Make ZSH defualt shell
 # ---
+
 sudo chsh -s $(which zsh) $USER
-
-# --
-# Open new terminal window
-# ---
-
-kitty
 
 # ---
 # Link .dotfiles to Home directory
