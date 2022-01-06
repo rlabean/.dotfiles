@@ -1,1 +1,1 @@
-'./install.sh' should install and set up all dotfiles for vim and zsh
+`./install.sh` should install and set up all dotfiles for vim and zsh
